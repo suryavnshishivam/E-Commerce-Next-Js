@@ -472,7 +472,7 @@ const MenProductDetails = ({ params }) => {
           {consumerComplaint && (
             <div className="p-5 text-justify">
               <p>For customer complaint contact at marketer address</p>
-              <p>Email : customercare@shoeadda.com</p>
+              <p>Email : customercare@SuryaTradeHub.com</p>
               <p>Phone : +91-797 7311 647</p>
             </div>
           )}
