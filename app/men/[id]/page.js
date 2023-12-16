@@ -472,7 +472,7 @@ const MenProductDetails = ({ params }) => {
           {consumerComplaint && (
             <div className="p-5 text-justify">
               <p>For customer complaint contact at marketer address</p>
-              <p>Email : customercare@SuryaTradeHub.com</p>
+              <p>Email : customercare@AnjaneyaHub.com</p>
               <p>Phone : +91-797 7311 647</p>
             </div>
           )}
@@ -480,25 +480,29 @@ const MenProductDetails = ({ params }) => {
       </div>
       <div className="text-center p-5">
         <div className=" text-2xl">SIMILAR PRODUCTS</div>
-        <div className="grid grid-cols-3">
+        <div className="grid grid-cols-1 " style={{ padding: "10px 200px" }}>
           <Carousel
             autoPlay={true}
             infiniteLoop={true}
             showStatus={true}
             showIndicators={true}
             showThumbs={false}
-            interval={5000}
+            interval={1000}
             showArrows={true}
             useKeyboardArrows={true}
           >
             {filterSimilirProduct.map((item) => (
               <div
                 key={item.id}
-                className="lg:w-64 lg:mt-1 lg:mx-1 sd:w-[-webkit-fill-available] shadow shadow-slate-900  border border-spacing-1 rounded md:w-[362px] p-2"
+                className="lg:w-[100%]  lg:mt-1 lg:mx-1 sd:w-[-webkit-fill-available] shadow shadow-slate-900  border border-spacing-1 rounded md:w-[362px] p-2"
               >
                 <Link href={`/men/${item.id}`}>
                   <Image
-                    style={{ width: "500px", height: "200px" }}
+                    style={{
+                      width: "500px",
+                      height: "200px",
+                      cursor: "pointer",
+                    }}
                     src={item.image}
                     width={100}
                     height={0}

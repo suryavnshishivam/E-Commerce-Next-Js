@@ -56,7 +56,7 @@ const Navbar = () => {
           href="/"
           className=" bg-orange-400 sd:bg-transparent sd:font-extrabold rounded-lg p-1 sd:p-0 hover:text-black"
         >
-          Surya Trade Hub
+          AnjaneyaHub
         </Link>
       </div>
       <div className="inline-flex  flex-wrap">

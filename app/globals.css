@@ -6,14 +6,24 @@
   margin: 0;
   padding: 0;
 }
-.animate-spin{
+.animate-spin {
   animation: spin 60s linear infinite;
 }
-.animate-spin-loading{
+.animate-spin-loading {
   animation: spin 1s linear infinite;
 }
 .react-search-box-dropdown {
   position: absolute;
   top: 426px;
   font-size: small;
+}
+
+.carousel .control-dots {
+  position: absolute;
+  bottom: 0;
+  margin: 0 0 !important;
+  padding: 0;
+  text-align: center;
+  width: 100%;
+  z-index: 1;
 }
